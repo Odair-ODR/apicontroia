@@ -1,0 +1,22 @@
+python -m uvicorn main:app --reload => run server
+ctr + c => Detener el server
+
+http://127.0.0.1:8000/docs => Documentación con Swagger
+
+from pydantic import BaseModel => para trabajar con entidades
+from datetime import datetime, timedelta => datetime para trabajar con fechas del sistema, y timedelta para operaciones con fechas
+
+pip install "python-jose[cryptograpy]" => intalar python jose para trabajar con JWT json web token 
+pip install "passlib[bcrypt]" => intalar para usar este algoritmo de incriptación
+pip install pyodbc => Para trabjar con bases de datos
+pip install pandas => Para trabjar en las consultas de bases de datos 
+
+iwr https://get.deta.dev/cli.ps1 -useb | iex => install Deta, sirve para desplegar la api
+deta new => sube el proyecto al servidor de deta
+deta deploy => sube los cambios del proyecto al servidor deta
+deta visor enable => para poder visualizar los log en la web de deta
+https://7zb0tu.deta.dev/docs => ver la documentación
+
+
+SECRET_KEY = "" => Secret key generado con [openssl rand -hex 32] (devuelve un número random de 32 en hexadecimal)
+bcrypt => para encriptar contraseña

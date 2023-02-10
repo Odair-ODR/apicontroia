@@ -1,0 +1,7 @@
+fastapi
+python-jose
+passlib
+pyodbc
+pandas
+python-multipart
+uvicorn
