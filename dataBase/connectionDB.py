@@ -2,7 +2,7 @@ import pyodbc as odbc
 
 
 #"""
-DRIVER_NAME = 'SQL Server'
+DRIVER_NAME = 'ODBC Driver 17 for SQL Server'
 SERVER_NAME = 'tcp:controia-server.database.windows.net'
 DATA_BASE_NAME = 'DB_CONTROIA'
 USER = 'SERVER-CONTROIA'
